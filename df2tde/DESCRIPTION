@@ -1,0 +1,23 @@
+Package: df2tde
+Type: Package
+Title: Dataframe to Tableau Extract
+Version: 0.1.0
+Authors@R: person("Brock", "Tibert", email = "btibert3@gmail.com", role = c("aut", "cre"))
+Maintainer: Brock <btibert3@gmail.com>
+Description: Convert an R data.frame to a Tableau extract file
+SystemRequirements: Anaconda (https://www.anaconda.com/download/)
+License: GPL-3
+BugReports: https://github.com/Btibert3/df2tde/issues
+Encoding: UTF-8
+LazyData: true
+Imports:
+    reticulate,
+    tibble,
+    magrittr,
+    purrr,
+    dplyr,
+    lubridate,
+    stringr,
+    tidyr
+
+
