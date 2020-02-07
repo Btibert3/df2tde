@@ -1,0 +1,27 @@
+Package: pantabR
+Title: Convert a data.frame into a Tableau Extract file
+Version: 0.1.0
+Authors@R: c(person("Tibert", "Brock", role=c("aut", "cre"), email="btibert3@gmail.com"))
+Description: Facility that wraps the pantab library in python to convert data.frames into Tableau extract files.
+SystemRequirements: Anaconda (https://www.anaconda.com/download/)
+License: GPL-3
+VignetteBuilder: knitr
+URL: https://github.com/btibert3/pantabR
+BugReports: https://github.com/btibert3/pantabR/issues
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    reticulate,
+    tibble,
+    magrittr,
+    purrr,
+    dplyr,
+    lubridate,
+    stringr,
+    tidyr
+RoxygenNote: 6.1.99.9001
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat,
+    covr
