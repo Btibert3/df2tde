@@ -1,11 +1,31 @@
-model off of using condenv for env to install package
+# pantabR
 
-See below for awesome use case:
+This is an R wrapper to the excellent python library `pantab`, which allows us to export our dataframes to Tableau Hyper Extract files.  This can have advantages over simply saving out our datasets as csv files.
 
-https://github.com/jooyoungseo/mboxr/blob/master/R/read_mbox.R
+## Requirements
 
-> until the hyper extract API is pip installable, this becomes really tricky, and probably not worth the effort to build a work around until Tableau releases it on pypi.
+`pantabR` requires Anaconda python (miniconda recommended) on your system path.  This pacakge uses `reticulate` within R to use environments and manage the necessary python bits for this package to function.
 
-- install pantab
+This package implements the following from [`pantab`](https://github.com/innobi/pantab):
 
-take a dataframe (validate is "basic" data.frame) and then just pass to python as df and write out using pantab.
+- frame_to_hyper
+
+
+Future work will add other elements, such as hyper to dataframes or frames to hyper as needed.
+
+## Installation
+
+```
+devtools::install_github("btibert3/pantabR")
+```
+
+or 
+
+
+```
+remotes::install_github("btibert3/pantabR")
+```
+
+
+## Example
+

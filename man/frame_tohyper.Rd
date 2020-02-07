@@ -11,6 +11,8 @@ frame_tohyper(d = NULL, f = NULL, tbl = "test")
 \item{d}{data.frame input}
 
 \item{f}{the filename, with a .hyper extension.  This is required.}
+
+\item{tbl}{The name of the table for the Tableau extract.}
 }
 \value{
 The file is saved

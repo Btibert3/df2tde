@@ -5,9 +5,10 @@
 #' @keywords frame_to_hyper
 
 #' @description Use this function for to save a data.frame to a Tableau hyper file.
-#' @export frame_to_hyper
+#' @export 
 #' @param d data.frame input
 #' @param f the filename, with a .hyper extension.  This is required.
+#' @param tbl The name of the table for the Tableau extract.
 
 #' @details
 #' See example below.
