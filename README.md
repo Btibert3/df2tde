@@ -29,3 +29,19 @@ remotes::install_github("btibert3/pantabR")
 
 ## Example
 
+```
+devtools::install_github("btibert3/pantabR")
+library(pantabR)
+dat = data.frame(x=1:10, y=letters[1:10])
+frame_to_hyper(dat, f="dataset.hyper", tbl="dataset")
+````
+
+Above might take a moment or two depending if it is the first time you are using the package or calling the function.
+
+> Behind the scenes, `pantabR` is calling reticulate to configure and use a conda environment with the necessary pacakges.  
+
+## Issues
+
+This is a new package, and one that I want to add to, but I am certain there are bugs and issues that I need to catch.  If you come across an issue, please consider adding an [issue here](https://github.com/Btibert3/pantabR/issues)
+
+> This package requires a data.table and not a tibble.
