@@ -1,4 +1,4 @@
-# pantabR
+# pantabR  <img src="https://github.com/Btibert3/pantabR/raw/master/logo/pantabR_hexSticker.png" width = "175" height = "200" align="right" />
 
 This is an R wrapper to the excellent python library `pantab`, which allows us to export our dataframes to Tableau Hyper Extract files.  This can have advantages over simply saving out our datasets as csv files.
 
