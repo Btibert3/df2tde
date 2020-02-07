@@ -24,7 +24,7 @@
 #' @references \url{https://www.anaconda.com/download/}
 
 
-frame_tohyper = function(d = NULL, f=NULL, tbl="test") {
+frame_to_hyper = function(d = NULL, f=NULL, tbl="test") {
   # ensure we have proper params
   if(!is.data.frame(d) || tools::file_ext(f) != "hyper" ) {
     stop("Please use a data.frame and profile a filename that uses .hyper as it's extension")
