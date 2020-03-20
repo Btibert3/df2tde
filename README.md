@@ -44,4 +44,4 @@ Above might take a moment or two depending if it is the first time you are using
 
 This is a new package, and one that I want to add to, but I am certain there are bugs and issues that I need to catch.  If you come across an issue, please consider adding an [issue here](https://github.com/Btibert3/pantabR/issues)
 
-> This package requires a data.table and not a tibble.
+> This package requires a data.frame and not a tibble.
